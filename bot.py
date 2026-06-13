@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
-
+import os
+city = os.getenv("CITY", "Kochi")
 
 def get_weather(city):
     """
