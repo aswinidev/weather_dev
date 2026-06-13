@@ -95,7 +95,7 @@ def main():
 
     print("\nDAILY PULSE BOT\n")
 
-    city = "Alappuzha")
+    city = "Alappuzha"
 
     report = generate_report(city)
 
