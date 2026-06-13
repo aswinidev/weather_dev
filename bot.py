@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
-import os
-city = os.getenv("CITY", "Kochi")
+
+
 
 def get_weather(city):
     """
@@ -72,7 +72,6 @@ Quote of the Day
 
 =========================================
 Generated Automatically by Daily Pulse Bot
-"""
 
     return report
 
@@ -95,9 +94,7 @@ def main():
 
     print("\nDAILY PULSE BOT\n")
 
-    city = input(
-        "Enter city name: "
-    )
+    city = "Alappuzha")
 
     report = generate_report(city)
 
