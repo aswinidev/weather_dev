@@ -72,6 +72,7 @@ Quote of the Day
 
 =========================================
 Generated Automatically by Daily Pulse Bot
+"""
 
     return report
 
